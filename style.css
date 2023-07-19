@@ -220,11 +220,7 @@ body{
         padding-bottom: 80px;
         padding-top: 20px;
      }
-.all-hover-container{
-     
-   
-}
-.item{
+ .item{
     display: flex;
     gap: 10px;
    padding: 8px 16px;
@@ -395,4 +391,30 @@ body{
             
       }
       
+}
+
+@media screen and ( min-width:577px ) and (max-width:992px) {
+    .game-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 100px;
+    }
+    .body-container{
+        flex-direction: column;
+    }
+    .left-body-container{
+        margin-right: 200px;
+        margin-top: -100px;
+        margin-bottom: -80px;
+    }
+    .right-body-container{
+        margin-left: 80px;
+        margin-top: -100px;
+    }
+    .item{
+        flex-direction: column;
+    }
+    .right-banner img{
+      margin-left: 50px;
+    }
 }
