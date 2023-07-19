@@ -23,13 +23,17 @@ body{
     list-style: none;
     display: flex;
     align-items: center;
+    color: #3C354F;
 
 }
 .rightside-navbar li{
     margin-right: 20px;
 }
 #nav-button{
-    padding: 15px 25px;
+       padding-top: 0px;
+}
+#nav-button i{
+font-size: 16px;
 }
 
 .nav-container{
@@ -204,6 +208,9 @@ body{
     align-items: center;
     justify-content: center;
     padding-top: 100px;
+}
+.footer-head h3{
+       margin-left: 10px;
 }
 .footer-anchor{
     display: flex;
