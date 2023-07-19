@@ -106,6 +106,11 @@ body{
     font-size: 55px;
     margin-top: 50px;
   } 
+  #video-section-head-color{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+  }
   .online-game-headline p{
     color: #534C64;
   }
@@ -121,6 +126,44 @@ body{
     justify-content: center;
     gap: 20px;
   }
+   
+       /* this is body section*/
+
+  .right-body-container img{
+    height: 500px;
+    margin-left: 100px;
+    
+}
+.left-body-container h1{
+   font-size: 40px;
+   text-align: right;
+  
+}
+.left-body-container p{
+    color:#534C64 ;
+    text-align: right;
+}
+.left-body-container{
+   padding-top: 100px;
+}
+.right-body-container{
+    
+}
+.body-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 200px;
+  
+}
+#image-position-1 img{
+        width: 300px;
+        height: 350px;
+        position: relative;
+        bottom: 220px;
+        right: 100px;
+}
 
 
 
@@ -169,4 +212,27 @@ body{
     .online-game-headline p{
         font-size: 12px;
     }
+    .body-container{
+        flex-direction: column;
+    }
+    .left-body-container{
+        text-align: center;
+        padding-right: 60px;
+        padding-top: 0px;
+        margin-top: -40px;
+    }
+    .right-body-container{
+        padding-top: 0px;
+    }
+    .right-body-container img{
+      margin-top: -120px;
+      width: 80%;
+      height: 80%;
+     }
+     #image-position-1 img{
+        height: 50%;
+        width: 50%;
+        position: relative;
+        bottom: 40px;
+     }
 }
