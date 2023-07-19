@@ -165,6 +165,32 @@ body{
         right: 100px;
 }
 
+
+       /*this is hover border section)*/
+
+.all-hover-container{
+     display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 15px;
+    column-gap: 10px;
+    justify-content: center;
+   margin-left: 60px;
+   padding-bottom: 80px;
+   
+}
+.item{
+    display: flex;
+    gap: 10px;
+   padding: 8px 16px;
+}
+.item:hover{
+    border: 2px solid #F948B2;
+    border-radius: 35px;
+    color: #F948B2;
+}
+
+
+
       /*this is footer section)*/
 
 .footer{
