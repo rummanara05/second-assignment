@@ -39,6 +39,7 @@ body{
        color:#0B0223;
        border-radius: 8px;
        border: none;
+       cursor: pointer;
 }
 
 
@@ -303,7 +304,7 @@ body{
         flex-direction: column;
        
     }
-    .rightside-navbar li{
+    .rightside-navbar a{
         margin-bottom: 20px;
     }
     .banner-container{
