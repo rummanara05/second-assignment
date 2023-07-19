@@ -53,8 +53,30 @@ body{
         background-image: url('images/Group\ 14.png');
          background-size: cover;
          text-align: center;
+         padding-top: 100px;
+         padding-bottom: 100px;
         
     }
+    #banner-button-1{
+        background-color: #F948B2;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 16px;
+        margin-right: 15px;
+        font-weight: 600;
+    }
+    #banner-button-2{
+        background-color: #4EC5F7;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
     .right-banner{
         width: 50%;
         min-height: 50px;
@@ -75,6 +97,30 @@ body{
         font-size: 40px;
     }
 
+        /*This is online game section*/
+
+  .online-game-headline{
+    text-align: center;
+  }     
+  .online-game-headline h1{
+    font-size: 55px;
+    margin-top: 50px;
+  } 
+  .online-game-headline p{
+    color: #534C64;
+  }
+  .game-1 img, .game-2 img, .game-3 img, .game-4 img{
+     height: 300px;
+  }
+  .game-container p{
+    color: #534C64;
+  }
+  .game-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
 
 
 
@@ -112,5 +158,15 @@ body{
     }
     .right-banner img{
         width: 100%;
+    }
+    .game-container{
+        flex-direction: column;
+       margin-left: 60px;
+    }
+    .online-game-headline h1{
+          font-size: 25px;
+    }
+    .online-game-headline p{
+        font-size: 12px;
     }
 }
