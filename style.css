@@ -332,4 +332,18 @@ body{
             padding-bottom: 50px;
             padding-top: 50px;
       }
+      .item{
+            font-size: 50%;
+      }
+      .all-hover-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+        margin: 0 auto;
+        
+      }
+      .all-hover-container img{
+            width: 50%;
+            
+      }
 }
