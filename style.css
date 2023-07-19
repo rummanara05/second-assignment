@@ -165,6 +165,48 @@ body{
         right: 100px;
 }
 
+      /*this is footer section)*/
+
+.footer{
+    background-color: #0B0223;
+    color: white;
+    text-align: center;
+    
+}
+.footer-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.footer-anchor{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 50px;
+    
+}
+.footer-anchor a{
+    text-decoration: none;
+    color: white;
+}
+.fa-brands{
+   margin-right: 25px;
+   margin-top: 50px;
+   font-size: 35px;
+}
+.footer-para{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    
+}
+#footer-down{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
 
 
 
@@ -235,4 +277,33 @@ body{
         position: relative;
         bottom: 40px;
      }
+     .footer{
+        display: flex;
+        flex-direction: column;
+     }
+     .footer-anchor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+     }
+     .footer-icons{
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 20px;
+        gap: 10px;
+     }
+     .footer-para{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5px;
+        margin-left: 15px;
+     }
+     
+        #footer-down{
+            flex-direction: column;
+           font-size: small;
+            padding-bottom: 50px;
+            padding-top: 50px;
+      }
 }
