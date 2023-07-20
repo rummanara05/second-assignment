@@ -111,7 +111,7 @@ body{
     }
 
 
-            /*this is optionL Prt-1 section*/
+            /*this is optionL Part-1 section*/
 
 
 .optional-1-container{
@@ -127,11 +127,11 @@ body{
         -webkit-background-clip: text;
         font-size: 45px;
         font-weight: 800;
-        text-align: right;
+       
 }
 .right-optional-container p{
     color: #534C64;
-    text-align: right;
+    
 }
 .right-optional-container span, h3{
     color: #534C64;
@@ -431,8 +431,21 @@ body{
             width: 50%;
             
       }
+      .optional-1-container{
+        flex-direction: column;
+      }
+      .left-optional-container img{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .right-optional-container{
+        text-align: center;
+        padding-right: 0px;
       
 }
+
+
+
 
 @media screen and ( min-width:577px ) and (max-width:992px) {
     .game-container{
